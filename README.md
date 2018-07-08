@@ -5,7 +5,7 @@
 
 You CANNOT use it against any laws, TOS of available online services or others.
 
-This script is just here as a study example to show how doing a scrapper, but YOU are fully responsible of the usage of it and YOU CANNOT use it illegally or for spamming users. The script and myself cannot be in any case responsible of the usage you make with it.
+This script is just here as a study example, but YOU are fully responsible of the usage of it and YOU CANNOT use it illegally or for spamming users. The script and myself cannot be in any case responsible of the usage you make with it.
 
 
 ## About ME 😼
