@@ -1,0 +1,17 @@
+50
+MYEMAIL@gmail.com
+MY_PWD
+BUYER_EMAIL@gmail.com
+BUYER APP_NAME
+https://play.google.com/store/apps/details?id=com.foodscan
+Y
+0
+
+// number of emails
+// from address
+// from address password
+// customer address
+// app name
+// app URL
+// Android app? Y = Android, N = iPhone
+// starting email # (0 is beginning)
