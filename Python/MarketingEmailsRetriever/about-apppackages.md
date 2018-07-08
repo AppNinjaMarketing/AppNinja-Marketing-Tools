@@ -1,6 +1,6 @@
 To output just the packages of the apps, change this code:
 
-```
+```python
 def writeFile():
     writeFile = open("OutputEmails.txt", "w")
     for email in emailList:
@@ -10,7 +10,7 @@ def writeFile():
 
 to this one:
 
-```
+```python
 def writeFile():
     writeFile = open("apppackages.txt", "w")
     for package in finalLinkList:
