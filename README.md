@@ -15,7 +15,7 @@ This script is just here as a study example, but YOU are fully responsible of th
 
 ## Contact ME 😼
 
-You can by email at **hi [[AT]] ph7 [[D0T]] me**
+hi [[AT]] ph7 [[D0T]] me
 
 
 ## License
