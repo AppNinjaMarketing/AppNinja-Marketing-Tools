@@ -1,5 +1,7 @@
 # AppNinja Marketing Tools
 
+*Useful Python Marketing scripts*
+
 
 ## Disclaimer
 
