@@ -74,40 +74,6 @@ def composeEmailMessage(message, appName, appUrl):
     return "Hello,\n\n" + newMessage.rstrip() + "\n\nHere is the link to the app:\n" + appUrl + "\nThank you!"
 
 
-# def sendEmail(fromAddress, toAddress, bccAddress, message):
-#     print "from: " + fromAddress + " to: " + toAddress + " bcc: " + bccAddress
-#
-#     TOADDR = []
-#     BCCADDR = []
-#     newToAddress = ("\"" + toAddress.strip() + "\" <" + toAddress.strip() + ">").replace('\n', ' ').replace('\r', '')
-#     newBccAddress = ("\"" + bccAddress.strip() + "\" <" + bccAddress.strip() + ">").replace('\n', ' ').replace('\r', '')
-#     TOADDR.append(newToAddress)
-#     BCCADDR.append(newBccAddress)
-#
-#     # Create message container - the correct MIME type is multipart/alternative.
-#     msg = MIMEMultipart('alternative')
-#     msg['Subject'] = "App News Tip"
-#     msg['From'] = fromAddress
-#     msg['To'] = ', '.join(TOADDR)
-#     msg['Bcc'] = ', '.join(BCCADDR)
-#
-#     # Record the MIME types of both parts - text/plain and text/html.
-#     body = MIMEText(message, 'plain')
-#
-#     # Attach parts into message container.
-#     msg.attach(body)
-#
-#     # Send the message via local SMTP server.
-#     s = smtplib.SMTP('smtp.gmail.com', 587)
-#     #s.set_debuglevel(1)
-#     s.ehlo()
-#     s.starttls()
-#     username = 'waylonjbrown@gmail.com'
-#     password = 'grillbrew2'
-#     s.login(username, password)
-#     s.sendmail(fromAddress, TOADDR + BCCADDR, msg.as_string())
-#     s.quit()
-
 def sendEmail(fromAddress, toAddress, subject, message):
     print "from: " + fromAddress + " to: " + toAddress
 
