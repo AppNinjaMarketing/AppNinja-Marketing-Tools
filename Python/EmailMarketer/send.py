@@ -44,7 +44,7 @@ def verify():
     print "Is the following information correct?:\n"
     print "Number of Emails:\t" + numberOfEmails
     print "From Address:\t\t" + fromAddress
-    print "From Address PW:\t" + fromAddressPassword
+    print "From Address Password:\t" + fromAddressPassword
     print "BCC Address:\t\t" + bccAddress
     print "App Name:\t\t" + appName
     print "App URL:\t\t" + appUrl
@@ -71,7 +71,7 @@ def readEmailMessageList():
 
 def composeEmailMessage(message, appName, appUrl):
     newMessage = message.replace("[appname]", appName.rstrip())
-    return "Hello,\n\n" + newMessage.rstrip() + "\n\nHere is the link to the app:\n" + appUrl + "\nThank you!"
+    return "Hi there,\n\n" + newMessage.rstrip() + "\n\nHere is the link to the app:\n" + appUrl + "\nThank you!"
 
 
 def sendEmail(fromAddress, toAddress, subject, message):
@@ -122,8 +122,10 @@ for num in range(0, int(numberOfEmails)):
     finalMessage = composeEmailMessage(emailMessageList[messageCount], appName, appUrl)
     #send first email to app site
     sendEmail(fromAddress, emailList[messageCount], "App News Tip", finalMessage)
+
     #send second email to user
     sendEmail(fromAddress, bccAddress, "Campaign Email #" + str(messageCount + 1), "This is a message from AppNinja letting you know for your marketing campaign the following message was sent to the email " + emailList[messageCount] + "\n\n" + finalMessage)
+
     print str(num + 1) + " sent\n"
     messageCount += 1
 
