@@ -96,11 +96,13 @@ def sendEmail(fromAddress, toAddress, subject, message):
     s = smtplib.SMTP('smtp.gmail.com', 587)
     #s.set_debuglevel(1)
     s.ehlo()
-    s.starttls()
+    s.starttls()  # Enable TLS
     username = fromAddress
     password = fromAddressPassword
     s.login(username, password)
     s.sendmail(fromAddress, TOADDR, msg.as_string())
+
+    # Close SMTP session
     s.quit()
 
 print "Running..."
