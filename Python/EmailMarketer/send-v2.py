@@ -55,8 +55,8 @@ def verify():
         print("Exiting...")
         sys.exit()
 
-def readEmailList(isAndroid):
-    filename = "AndroidEmailList.txt" if isAndroid else "IphoneEmailList.txt"
+def readEmailList():
+    filename = "EmailListBothIphoneAndroid.txt"
     with open(filename, "r") as text_file:
         return text_file.readlines()
 
@@ -115,7 +115,7 @@ readInfo()
 verify()
 print("Sending...")
 
-emailList = readEmailList(isAndroid)
+emailList = readEmailList()
 emailMessageList = readEmailMessageList()
 subjectLines = readSubjectLines()
 random.shuffle(emailMessageList)
