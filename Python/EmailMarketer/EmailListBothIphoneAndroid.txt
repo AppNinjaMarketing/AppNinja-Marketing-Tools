@@ -62,3 +62,6 @@ apps@applenapps.com
 ads@iphoneglance.com
 abrilliantidea@appadvice.com
 feedback@zdnet.com
+bizwitty-editorial@bizcover.com
+neeraj@strategence.in
+news@techcrunch.com
