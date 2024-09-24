@@ -66,7 +66,7 @@ def readEmailMessageList():
 
 def composeEmailMessage(message, appName, appUrl):
     newMessage = message.replace("[appname]", appName.strip())
-    return f"Hi there,\n\n{newMessage.strip()}\n\nHere is the link to the app:\n{appUrl}\nThank you!"
+    return f"Hi there,\n\n{newMessage.strip()}\n\nHere is the link to the app:\n{appUrl}\n\nThank you!"
 
 def get_gmail_service():
     creds = None

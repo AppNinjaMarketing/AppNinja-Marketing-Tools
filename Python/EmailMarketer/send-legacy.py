@@ -71,7 +71,7 @@ def readEmailMessageList():
 
 def composeEmailMessage(message, appName, appUrl):
     newMessage = message.replace("[appname]", appName.rstrip())
-    return "Hi there,\n\n" + newMessage.rstrip() + "\n\nHere is the link to the app:\n" + appUrl + "\nThank you!"
+    return "Hi there,\n\n" + newMessage.rstrip() + "\n\nHere is the link to the app:\n" + appUrl + "\n\nThank you!"
 
 
 def sendEmail(fromAddress, toAddress, subject, message):
