@@ -18,6 +18,7 @@ tipbox@gizmodo.com
 news@mashable.com
 customerservice@techhive.com
 news@techradar.com
+feedback@techradar.com
 webmaster@pcworld.com
 mike@crazymikeapps.com
 hello@purch.com
@@ -60,8 +61,7 @@ steqheu@ifans.com
 apppicker@gmail.com
 apps@applenapps.com
 ads@iphoneglance.com
-abrilliantidea@appadvice.com
+brent@appadvice.com
 feedback@zdnet.com
 bizwitty-editorial@bizcover.com
 neeraj@strategence.in
-news@techcrunch.com
