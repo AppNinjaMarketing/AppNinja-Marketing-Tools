@@ -3,6 +3,7 @@
 First, let's start editing `Info.txt` with the relevant infomation
 
 Sencond, set up Gmail API:
+
 a. Go to [Google Cloud Console](https://console.cloud.google.com).
 
 b. Create a new project or select an existing one.
