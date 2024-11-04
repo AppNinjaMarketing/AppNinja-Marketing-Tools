@@ -23,6 +23,8 @@ Finally, run the script
 python send-2.py # v2 is now the recommand one
 ```
 
+https://github.com/AppNinjaMarketing/AppNinja-Marketing-Tools/blob/main/Python/EmailMarketer/setup-starting-usaging-send-script.mp4?raw=true
+
 
 ## Disclaimer (TO READ BEFORE ANY USAGE)
 
