@@ -27,7 +27,7 @@ pip install -r requirements.txt
 Finally, run the script
 
 ```console
-python send-2.py # v2 is now the recommand one
+python send-v2.py # v2 is now the recommand one
 ```
 
 https://github.com/AppNinjaMarketing/AppNinja-Marketing-Tools/raw/refs/heads/main/Python/EmailMarketer/setup-starting-usaging-send-script.mp4
